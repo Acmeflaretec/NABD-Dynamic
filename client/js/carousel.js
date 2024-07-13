@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const carouselInner = document.getElementById('carousel-inner');
 
     try {
-        const response = await fetch('http://localhost:5000/Frontendbanners'); // Adjust URL as needed
+        const response = await fetch('https://nabdserver.acmeflare.in/Frontendbanners'); // Adjust URL as needed
         const banner = await response.json();
 
         const bannerContent = `
