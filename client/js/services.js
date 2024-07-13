@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    const response = await fetch('https://nabdserver.acmeflare.in');
+    const response = await fetch('https://nabdserver.acmeflare.in/services');
     const services = await response.json();
     console.log("services-",services);
 
